@@ -111,7 +111,7 @@ class ItemRepositoryTest {
 	void eee1() {
 		this.createList();
 		
-		List<Item> itemList = itemRepository.findByPriceLessThanOrderByPriceDesc(10010);
+		List<Item> itemList = itemRepository.findByPriceLessThanOrderByPriceDesc(10011);
 		
 		for(Item item : itemList) {
 			System.out.println(item.toString());
